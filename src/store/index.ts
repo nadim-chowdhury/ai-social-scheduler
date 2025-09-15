@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { setupListeners } from "@reduxjs/toolkit/query";
-import { apiService } from "./services/apiService";
+import { apiService } from "../services/apiService";
 import counterSlice from "./slices/counterSlice";
 import userSlice from "./slices/userSlice";
 
